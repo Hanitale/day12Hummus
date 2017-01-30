@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    font-size: 2em;
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+}
+
+.header {
+    position:relative;
+    min-height: 100px;
+    background-color: blue;
+
+}
+
+.sub-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: green;
+}
+
+.side-bar {
+    background-color: yellow;
+    width: 200px;
+    min-width: 200px;
+}
+
+.content {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.footer {
+    font-size: 1.15em;
+}
+ .logo {
+    width: 100px;
+    height: 100px;
+}
+.topMiddle {
+    display: inline-block;
+    vertical-align: top;
+    align-self: center;
+    color: yellow;
+}
+
+/*.header > span{*/
+
+    /*vertical-align: middle;*/
+/*}*/
+
+.leftButtons {
+
+    vertical-align: top;
+    width: 100px;
+    height: 50px;
+    float:right;
+    display: inline-block;
+
+}
+.no{
+    background-color: yellow;
+}
+.yes{
+    background-color: crimson;
+}
